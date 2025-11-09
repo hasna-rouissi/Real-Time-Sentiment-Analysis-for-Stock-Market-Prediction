@@ -1,0 +1,40 @@
+db.predicted_impact_rf.find().limit(5).pretty()
+db.predicted_impact_sgd.find().limit(5).pretty()
+use stock_sentiment
+db.predicted_impact_rf.find().limit(5).pretty()
+db.predicted_impact_sgd.find().limit(5).pretty()
+d.predicted_impact_sgd.find().limit(5).pretty()
+use stock_sentiment
+stock_sentiment
+db.predicted_impact_rf.find().limit(5).pretty()
+db.predicted_impact_sgd.find().limit(5).pretty()
+use stock_sentiment
+db.predicted_impact_rf.find().limit(5).pretty()
+db.predicted_impact_sgd.find().limit(5).pretty()
+use stock_sentiment
+db.predicted_impact_sgd.find().limit(10).pretty()
+db.predicted_impact_sgd.stats()
+db.predicted_impact_rf.stats()
+use stock_sentiment
+db.predicted_impact_sgd.drop()
+db.predicted_impact_sgd.stats()
+db.predicted_impact_rf.find().limit(10).pretty()
+db.predicted_impact_rf.stats()
+use stock_sentiment
+db.predicted_impact_rf.drop()
+db.predicted_impact_rf.stats()
+use stock_sentiment
+db.predicted_impact_rf.find().limit(10).pretty()
+db.predicted_impact_rf.drop()
+db.predicted_impact_sgd.drop()
+db.dropCollection("predicted_impact_sgd")
+db.drop_collection("predicted_impact_sgd")
+db.dropCollection("predicted_impact_sgd")
+db.dropCollecion("predicted_impact_sgd")
+db.drop_collecion("predicted_impact_sgd")
+db.predicted_impact_rf.find().limit(10).pretty()
+db.predicted_impact_rf.count()
+db.predicted_impact_sgd.count()
+db.predicted_impact_sgd.stats()
+db.predicted_impact_sgd.find().limit(10).pretty()
+use stock_sentiment

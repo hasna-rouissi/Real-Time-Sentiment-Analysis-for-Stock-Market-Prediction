@@ -1,0 +1,15 @@
+FROM python:3.9-slim
+
+WORKDIR /stock-sentiment-project
+
+COPY kafka_producer.py kafka_producer.py
+COPY data ./data   
+ 
+RUN pip install --upgrade pip
+COPY requirements.txt .
+RUN pip install --no-cache-dir --timeout=120 -r requirements.txt
+
+
+
+CMD ["python", "kafka_producer.py"]
+
